@@ -1,0 +1,47 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $fuente_principal;
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+}
+
+
+a {
+    text-decoration: none;
+    color: $blanco;
+    &:hover {
+        color: $amarillo;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+        margin: 0;
+ }
+
+    // Scroll Bar 
+
+ ::-webkit-scrollbar {
+     width: 2rem ;
+ }
+
+ ::-webkit-scrollbar-track {
+     background: $grisOscuro;
+ }
+
+ ::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(to right,  #1e130c, #9a8478);
+    background: linear-gradient(to right, #1e130c, #9a8478 );
+ }

@@ -1,0 +1,49 @@
+
+#ir_arriba_boton {
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 25px;
+    background: -webkit-linear-gradient(to right,  #1e130c, #9a8478);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1e130c, #9a8478 );
+    width: 5rem;
+    height: 5rem;
+    color: $amarillo;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .2s;
+     .fa {
+     padding-top: .6rem ;
+    }
+}
+
+
+
+#ir_arriba_boton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.indicador_contenedor {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 7px;
+    z-index: 1001;
+}
+
+.indicador_scroll {
+    height: 100%;
+    width: 0;
+    background-color: $amarillo;
+}
+
+.ocultar {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mostrar {
+    opacity: 1;
+    visibility: visible;
+}

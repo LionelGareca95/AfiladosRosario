@@ -1,0 +1,61 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  
+}
+.container {
+  min-height: 60vh;
+  padding: 1rem 4rem;
+  width: 100%;
+  padding: 0;
+}
+
+
+.swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 1px 4px 4px 1px rgba(196, 196, 196, 0.40);
+  margin-bottom: 1rem;
+  
+}
+.card-description {
+  padding: 1rem;
+  .card-text {
+      margin-bottom: 0.5rem;
+  }
+  .card-link {
+      a {
+          text-decoration: none;
+          color: $negro;
+      }
+      
+  }
+}
+.card-title {
+  margin-bottom: 0.5rem ;
+}
+
+.swiper-slide img {
+  
+  display: block;
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.servicios {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.parrafo-swiper {
+  text-align: center;
+  color: $negro;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 3rem;
+ 
+}

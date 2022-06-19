@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afilados Rosario</title>
+    <link rel="stylesheet" href="/styles/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="https://kit.fontawesome.com/68dc237817.js" crossorigin="anonymous"></script>
+    <!--================== Favicon===========================-->
+    <link rel="shortcut icon" href="/src/img/AfiladosRosarioIcon.png" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+     <!-- Scrolling Top -->
+     <div class="indicador_contenedor">
+        <div class="indicador_scroll"></div>
+      </div>
+      <div id="ir_arriba_boton" class="ocultar">
+        <i class="fa fa-angle-up fa-2x"></i>
+      </div>
+    <!-- Fin Scrolling Top -->   
+    <header>
+        <div class="contenedor contenedor-header">
+            <div class="barra">
+            <div class="mobile-menu">
+                <li class="afilados-mobile">Afilados Rosario</li>
+                <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg viewBox="0 0 100 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" d="M 20,50 H 80" />
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                  </button>
+            </div>
+            <nav class="navegacion">
+                <li class="afiladosrosario"> Afilados Rosario</li>
+                <li><a href="#contacto">Contacto <i class="fa-regular fa-address-book"></i></a></li>
+                <li><a href="#mapa">Como llegar <i class="fa-solid fa-location-dot"></i></a></li>
+                <li><a href="#contacto">Productos <i class="fa-solid fa-shop"></i></a></li>
+                <li><a href="#servicios">Nosotros <i class="fa-solid fa-user-group"></i></a></li>
+            </nav>
+        </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="imagen-fondo" loading="lazy">
+                
+        </div>
+    </main>
+    <div class="controller">
+        <a href="#servicios"><i class="fa-solid fa-arrow-down"></i></a>
+   </div>
+    <section class="servicios">
+
+    <div>
+        <h2 id="servicios" class="titulo">Servicios <img src="img/servicios.svg" loading="lazy" alt="Imagen Servicios"></h2>
+    </div>
+
+
+     <!-- Swiper -->
+     <p class="parrafo-swiper titulo">Cuchillos<img src="img/cuchillo.png" alt="Imagen tijeras" loading="lazy"></p>
+     <div class="container">
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/cuchilloUno.webp" alt="cuchillo">
+            <div class="card-description">
+                <div class="card-title">
+                    <div class="card-text">
+                        <p>Afilados de Cuchillos</p>
+                        <p><strong>&#36;350</strong></p>
+                    </div>
+
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/cuchillo2.webp" alt="cuchillo" loading="lazy">
+            <div class="card-description">
+                <div class="card-title">
+                    <div class="card-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                    </div>
+            
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/cuchillo3.jpg" alt="cuchillo" loading="lazy"> 
+            <div class="card-description">
+                <div class="card-title">
+                  
+                    <div class="card-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                    </div>
+                
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/tijeraUno.webp" alt="" loading="lazy">
+            <div class="card-description">
+                <div class="card-title">
+                   
+                    <div class="card-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                    </div>
+                
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/hacha.webp" alt="" loading="lazy">
+            <div class="card-description">
+                <div class="card-title">
+                  
+                    <div class="card-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                    </div>
+                
+                </div>
+            </div>
+          </div>
+      </div> 
+      <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <!-- Segundo Swiper Js -->
+    <p class="parrafo-swiper titulo">Tijeras <img src="img/tijeras.png" alt="Imagen tijeras" loading="lazy"></p>
+    <div class="container">
+        <div class="swiper mySwiper">
+        
+           <div class="swiper-wrapper">
+             <div class="swiper-slide">
+               <img src="/img/cuchilloUno.webp" alt="" loading="lazy">
+               <div class="card-description">
+                   <div class="card-title">
+                     
+                       <div class="card-text">
+                           <p>Afilados de Cuchillos</p>
+                           <p>$350</p>
+                       </div>
+                     
+                   </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <img src="/img/cuchillo2.webp" alt="" loading="lazy">
+               <div class="card-description">
+                   <div class="card-title">
+                     
+                       <div class="card-text">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                       </div>
+                
+                   </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <img src="/img/cuchillo3.jpg" alt="" loading="lazy">
+               <div class="card-description">
+                   <div class="card-title">
+                    
+                       <div class="card-text">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                       </div>
+                     
+                   </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <img src="/img/tijeraUno.webp" alt="" loading="lazy">
+               <div class="card-description">
+                   <div class="card-title">
+                      
+                       <div class="card-text">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                       </div>
+                   </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <img src="/img/hacha.webp" alt="" loading="lazy">
+               <div class="card-description">
+                   <div class="card-title">
+                    
+                       <div class="card-text">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, officia!</p>
+                       </div>
+                
+                   </div>
+               </div>
+             </div>
+         </div> 
+         <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>
+         </div>
+       </div>
+
+
+    <footer>
+        <p class="titulo" id="contacto">Contacto <img src="/img/contacto.svg" alt="Imagen Mapa" loading="lazy"></p>
+        <div class="contenedor-footer">
+                <div class="Afilados-Rosario">
+                    <img class="AfiladosRosario" src="/img/AfiladosRosario.webp" alt="" loading="lazy">
+                </div>
+         </div>
+
+                <div class="div-contacto">
+                <div class="contacto">
+                    <p class="parrafo">Whatsapp</p>
+                    <div class="logos">
+                        <img class="imagen-contacto" src="/img/whatsapp.svg" alt="Logo Whatsapp" loading="lazy">
+                        <a class="enlace" href="https://api.whatsapp.com/send?phone=3416955982">&nbsp;3416955982&nbsp;-&nbsp;Laura</a>
+                    </div>
+                    <div class="logos">
+                        <img class="imagen-contacto" src="/img/whatsapp.svg" alt="Logo Whatsapp" loading="lazy">
+                        <a class="enlace" href="https://api.whatsapp.com/send?phone=3412536684">&nbsp;3416955982&nbsp;-&nbsp;Lionel</a>
+                    </div>
+                    <div class="logos">
+                        <img class="imagen-contacto" src="img/whatsapp.svg" alt="Logo Whatsapp" loading="lazy">
+                        <a class="enlace" href="https://api.whatsapp.com/send?phone=3417123272">&nbsp;&nbsp;3416955982&nbsp;-&nbsp;Ailen</a>
+                    </div>
+                    <div class="logos">
+                        <img class="imagen-contacto" src="/img/telefonoazul.webp" alt="Logo Whatsapp" loading="lazy">
+                        <a class="enlace" href="#">3414314363&nbsp;-&nbsp;Teléfono</a>
+                    </div>
+                </div>
+                <div class="redes-sociales">
+                    <p class="parrafo">Seguinos</p>
+                    <div class="redes">
+                        <div class="logos">
+                            <img class="imagen-contacto" src="/img/instagram.svg" alt="Logo Instagram" loading="lazy">
+                            <a class="enlace" href="https://www.instagram.com/afiladosenrosario/">&nbsp;Afilados&nbsp;Rosario</a>
+                        </div>
+                        <div class="logos">
+                            <img class="imagen-contacto" src="/img/facebook.svg" alt="Logo Facebook" loading="lazy">
+                            <a class="enlace" href="https://www.instagram.com/afiladosenrosario/">&nbsp;Afilados&nbsp;Rosario</a>
+                        </div>
+                        <div class="logos">
+                            <img class="imagen-contacto" src="/img/gmail.svg" alt="Logo Whatsapp" loading="lazy">
+                            <a class="enlace" href="https://mail.google.com/mail/u/0/#inbox?compose=new">&nbsp;Enviar&nbsp;Consulta</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+                <div class="iframe" id="mapa">
+                    
+                    <p class="titulo">Como llegar <img src="/img/mapa.svg" loading="lazy" alt="Imagen Mapa"></p>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.457220672812!2d-60.66562108427651!3d-32.96533698016563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab79fdeacfed%3A0x3ca0d8752557ed48!2sG%C3%A1lvez%202531%2C%20S2003ADG%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1646924084211!5m2!1ses-419!2sar" loading="lazy"></iframe>
+                </div>
+            
+        
+        <div>
+            <p class="copy">Copyright &copy;<script>document.write(new Date().getFullYear())</script> <a href="https://lionelgareca95.github.io/">Lionel Gareca</a> All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.js"></script>
+    <script src="/js/app.js"></script>
+    
+</body>
+</html>

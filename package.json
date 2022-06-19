@@ -1,0 +1,15 @@
+{
+  "name": "rosario-afilados",
+  "version": "1.0.0",
+  "description": "afilados rosario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "Lionel Gareca",
+  "license": "ISC"
+}
