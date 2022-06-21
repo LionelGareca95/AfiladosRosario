@@ -3,8 +3,6 @@
     flex-direction: column;
     align-items: center;
     background-color: $negro;
-
-   
 }
 
 .navegacion {
@@ -27,7 +25,7 @@
         opacity: 1;
         visibility: visible;
         padding: 3rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     li{
@@ -43,7 +41,7 @@
         @include telefono {
         visibility: visible;
         }
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: $amarillo;
         font-family: $cursiva;
     }
@@ -52,7 +50,7 @@
 .afilados-mobile {
         padding-top: 2rem;
         list-style: none;
-         font-size: 4rem;
+         font-size: 3.5rem;
         color: $amarillo;
         font-family: $cursiva;
 }
@@ -69,7 +67,6 @@
         outline: none;
         cursor: pointer;
         margin-top: 1.5rem;
-        width: 5rem;
     }
 }
 
@@ -89,7 +86,7 @@
            padding-bottom: 2rem;
        }
 
-    font-size: 2rem;
+    font-size: 1.7rem;
     display: block;
     visibility: visible;
     opacity: 1;

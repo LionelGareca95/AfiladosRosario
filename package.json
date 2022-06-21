@@ -11,5 +11,8 @@
     "url": "yes"
   },
   "author": "Lionel Gareca",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
