@@ -41,9 +41,12 @@
         @include telefono {
         visibility: visible;
         }
-        font-size: 3.5rem;
-        color: $amarillo;
-        font-family: $cursiva;
+        a {
+            font-size: 3.5rem;
+            color: $amarillo;
+            font-family: $cursiva;
+        }
+    
     }
 }
 
@@ -94,5 +97,3 @@
 
        
 }
-
-
