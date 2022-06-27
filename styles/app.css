@@ -738,6 +738,10 @@ div .copy a:hover {
   color: #ABB01A;
 }
 
+.enlace__repo {
+  color: #FFFFFF;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
