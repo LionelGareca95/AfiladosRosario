@@ -12,6 +12,38 @@
     .marvel {
         width: 17rem;
     }
+}
+
+  
+.Main__Container-sc-1n4ud0o-0 {
+    height: auto !important;
+    padding-bottom: 2rem !important;
+}
+.fFcWqO {
+    background-color: $blanco !important;
+}
+.dIkmgQ {
+    background-color: $blanco !important;
+}
+
+.ArrowControl__ArrowControlContainer-sc-18snnoy-0 {
+    opacity: .7 !important;
+&:hover {
+    background-color: rgba(6, 139, 136) !important;
+    opacity: 1 !important;
+}
+}
+a:not([class]) {
+    display: none !important;
+  }
+
+.eapps-widget-toolbar{
+    display: none !important;
+    .eapps-widget-toolbar-panel-wrapper {
+        display: none !important;
+    }
+    .eapps-widget-toolbar-panel-only-you {
+        display: none !important;
+    }
     
-   
 }

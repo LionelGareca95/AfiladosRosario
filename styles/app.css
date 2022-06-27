@@ -969,6 +969,7 @@ div .copy a:hover {
 }
 
 .controller-producto {
+  margin-top: 6rem;
   height: auto;
   width: 100%;
   position: relative;
@@ -1025,4 +1026,39 @@ div .copy a:hover {
 }
 .clientes .marvel {
   width: 17rem;
+}
+
+.Main__Container-sc-1n4ud0o-0 {
+  height: auto !important;
+  padding-bottom: 2rem !important;
+}
+
+.fFcWqO {
+  background-color: #FFFFFF !important;
+}
+
+.dIkmgQ {
+  background-color: #FFFFFF !important;
+}
+
+.ArrowControl__ArrowControlContainer-sc-18snnoy-0 {
+  opacity: 0.7 !important;
+}
+.ArrowControl__ArrowControlContainer-sc-18snnoy-0:hover {
+  background-color: rgb(6, 139, 136) !important;
+  opacity: 1 !important;
+}
+
+a:not([class]) {
+  display: none !important;
+}
+
+.eapps-widget-toolbar {
+  display: none !important;
+}
+.eapps-widget-toolbar .eapps-widget-toolbar-panel-wrapper {
+  display: none !important;
+}
+.eapps-widget-toolbar .eapps-widget-toolbar-panel-only-you {
+  display: none !important;
 }/*# sourceMappingURL=app.css.map */
