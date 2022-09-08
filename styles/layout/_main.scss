@@ -9,19 +9,21 @@
 }
 
 // Flecha Flotante
+
+.div-controller {
+    animation: bounce-down 1.6s linear infinite;
+}
 .controller {
     height: auto;
     width: 100%;
     color: $blanco;
     position: relative;
     font-size: 3rem;
-    z-index: 100;
-    bottom: 6rem;
+    z-index: 1000;
+    bottom: 10rem;
     left: 50%;
     margin-left: -12px;
-    animation: bounce-down 1.6s linear infinite;
-
-    
+   
 }
 
 
@@ -39,8 +41,8 @@
 
 // Menu Hamburguesa Animado
 svg{
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .menu {
