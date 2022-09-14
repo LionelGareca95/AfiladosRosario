@@ -918,6 +918,8 @@ div .copy a:hover {
 
 .clientes {
   min-height: 30rem;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -927,9 +929,7 @@ div .copy a:hover {
 .clientes img {
   width: 10rem;
   padding: 1rem;
-}
-.clientes .marvel {
-  width: 17rem;
+  border-radius: 2rem;
 }
 
 .Main__Container-sc-1n4ud0o-0 {

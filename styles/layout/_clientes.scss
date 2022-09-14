@@ -1,5 +1,7 @@
 .clientes {
     min-height: 30rem;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -8,10 +10,9 @@
     img {
         width: 10rem;
         padding: 1rem;
+        border-radius: 2rem;
     }
-    .marvel {
-        width: 17rem;
-    }
+   
 }
 
   
