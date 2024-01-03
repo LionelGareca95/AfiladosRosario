@@ -471,8 +471,7 @@ p {
 }
 
 .div-controller {
-  -webkit-animation: bounce-down 1.6s linear infinite;
-          animation: bounce-down 1.6s linear infinite;
+  animation: bounce-down 1.6s linear infinite;
 }
 
 .controller {
@@ -485,18 +484,6 @@ p {
   bottom: 10rem;
   left: 50%;
   margin-left: -12px;
-}
-
-@-webkit-keyframes bounce-down {
-  25% {
-    transform: translateY(-4px);
-  }
-  50%, 100% {
-    transform: translateY(0);
-  }
-  75% {
-    transform: translateY(4px);
-  }
 }
 
 @keyframes bounce-down {
@@ -617,8 +604,9 @@ svg {
 }
 .logos a.enlace {
   color: #1a1b15;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
+  font-weight: 600;
 }
 .logos a.enlace:hover {
   color: #ABB01A;
